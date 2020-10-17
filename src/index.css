@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: purple;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ul {
+  list-style: none;
+}
+
+.body {
+  /* background: purple; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.Input {
+  border: 2px soild black;
+  height: 500px;
+  width: 400px;
+  background: lightgray;
+  margin-left: 300px;
+}
+
+#view {
+  margin-left: 150px;
+  border: 2px solid black;
+  height: 500px;
+  width: 400px;
+  background: lightgray;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  background: lightgray;
+}
+#small {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
+  justify-content: space-around;
+}
+button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: lightgray;
+}
+#header > p {
+  margin-left: 100px;
+  color: purple;
+  top: 10px;
+}
+#check {
+  height: 50px;
+}
